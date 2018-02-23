@@ -6,3 +6,7 @@ https://jekyllrb.com/docs/quickstart/
 Start with a plain html theme
 ## 4. Using layouts
 With html pages
+## 5. Adding a news page
+site.pages object
+default url
+liquid templating and filter: https://jekyllrb.com/docs/templates/
