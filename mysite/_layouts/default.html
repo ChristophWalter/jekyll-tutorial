@@ -36,7 +36,13 @@
     </div>
 </nav>
 
-{{ content }}
+<section class="jumbotron text-center">
+    <h1 class="mt-5">{{ page.title }}</h1>
+    <p class="lead">{{ page.subtitle }}</p>
+</section>
+<section class="container">
+    {{ content }}
+</section>
 
 <footer class="footer">
     <div class="container">

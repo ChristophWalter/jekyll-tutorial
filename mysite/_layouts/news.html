@@ -1,25 +1,21 @@
 ---
 layout: default
 ---
-<section class="jumbotron text-center">
-    <h1 class="mt-5">Latest news</h1>
-    <p class="lead">:o</p>
-</section>
 
-<div class="container">
-    <div>
-        {% if site.posts.size > 0 %}
-        <ul class="list-group">
-            {% for post in site.posts %}
-            <li class="list-group-item">
-                <h2>
-                    <a href="{{ post.url | relative_url }}">
-                        {{ post.title | escape }}
-                    </a>
-                </h2>
-            </li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-    </div>
+{{ content }}
+
+<div>
+    {% if site.posts.size > 0 %}
+    <ul class="list-group">
+        {% for post in site.posts %}
+        <li class="list-group-item">
+            <h2>
+                <a href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 </div>

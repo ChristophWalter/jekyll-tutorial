@@ -15,3 +15,6 @@ liquid variables, conditions
 content, page, site
 https://jekyllrb.com/docs/variables/
 liquid variables
+## 7. Markdown
+pages like post
+seperate content from html markup and styling
