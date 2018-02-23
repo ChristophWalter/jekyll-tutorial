@@ -10,3 +10,8 @@ With html pages
 site.pages object
 default url
 liquid templating and filter: https://jekyllrb.com/docs/templates/
+liquid variables, conditions
+## 6. Using variables
+content, page, site
+https://jekyllrb.com/docs/variables/
+liquid variables

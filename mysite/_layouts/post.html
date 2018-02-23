@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section class="jumbotron text-center">
+    <h1 class="mt-5">{{ page.title | escape }}</h1>
+    <p class="lead">Just plain html is boring...?</p>
+</section>
+<i>
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+        {% assign dateformat = site.dateformat | default: "%b %-d, %Y" %}
+        {{ page.date | date: dateformat }}
+    </time>
+    <span>
+        {% if page.author %}
+         - {{ page.author }}
+        {% endif %}
+    </span>
+</i>
+<article class="mt-4">
+    {{ content }}
+</article>
