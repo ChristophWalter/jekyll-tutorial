@@ -4,3 +4,5 @@
 https://jekyllrb.com/docs/quickstart/
 ## 3. Cleanup
 Start with a plain html theme
+## 4. Using layouts
+With html pages
