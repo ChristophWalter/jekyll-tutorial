@@ -18,3 +18,5 @@ liquid variables
 ## 7. Markdown
 pages like post
 seperate content from html markup and styling
+## 8. Page structure
+own folder for pages

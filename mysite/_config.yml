@@ -42,3 +42,4 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include: ['_pages']

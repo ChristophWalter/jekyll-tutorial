@@ -2,6 +2,7 @@
 layout: default
 title: "Jekyll Tutorial"
 subtitle: "Just plain html is boring...?"
+permalink: /
 ---
 
 some more text.
