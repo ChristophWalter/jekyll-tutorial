@@ -1,5 +1,6 @@
 ---
 layout: default
+nav_title: "Tutorial"
 title: "Jekyll Tutorial"
 subtitle: "Just plain html is boring...?"
 permalink: /

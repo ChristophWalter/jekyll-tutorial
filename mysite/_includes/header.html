@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{{ "/" | relative_url }}">Jekyll</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    {% if site.pages %}
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            {% for current_page in site.pages %}
+            {% if current_page.nav_title %}
+            <li class="nav-item{% if current_page.url == page.url %} active{% endif %}">
+                <a class="nav-link" href="{{ current_page.url | relative_url}}">{{current_page.nav_title | escape}}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+</nav>
+
+<section class="jumbotron text-center">
+    <h1 class="mt-5">{{ page.title }}</h1>
+    <p class="lead">{{ page.subtitle }}</p>
+</section>
