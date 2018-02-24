@@ -1,32 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/assets/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/styles.css">
-
-    <title>Hello, world!</title>
+{% include head.html %}
 </head>
 <body>
+
 {% include header.html %}
+
 <section class="container">
     {{ content }}
 </section>
 
-<footer class="footer">
-    <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
-    </div>
-</footer>
+{% include footer.html %}
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="/assets/vendor/jquery-3.2.1.slim.min.js"></script>
-<script src="/assets/vendor/popper.min.js"></script>
-<script src="/assets/vendor/bootstrap.min.js"></script>
+{% include scripts.html %}
 </body>
 </html>
