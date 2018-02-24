@@ -24,3 +24,4 @@ own folder for pages
 generate nav-links from pages
 ## 10. Refactor default layout
 use includes for components
+## 11. Example for adding posts and pages
