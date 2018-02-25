@@ -30,3 +30,7 @@ concat and minify (s)css/js
 start and watch jekyll
 live reload browsersync
 build
+## 13. Upload to github pages
+use /docs folder
+set in github repo settings -> github pages
+https://christophwalter.github.io/jekyll-tutorial/
