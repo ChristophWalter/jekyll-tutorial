@@ -43,3 +43,5 @@ markdown: kramdown
 #   - vendor/ruby/
 
 include: ['_pages']
+exclude: ['_sass', 'assets/vendor/', 'assets/js/', 'Gemfile', 'Gemfile.lock']
+

@@ -1,2 +1,6 @@
-.sass-cache
 .idea
+node_modules/
+mysite/.jekyll-metadata
+mysite/assets/scripts.min.js
+mysite/assets/vendor.min.css
+mysite/assets/styles.css

@@ -1,0 +1,29 @@
+{
+  "name": "jekyll-tutorial",
+  "version": "1.0.0",
+  "description": "A short introduction in developing and deploying sites with jelyll",
+  "scripts": {
+    "build": "gulp build",
+    "develop": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ChristophWalter/jekyll-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristophWalter/jekyll-tutorial/issues"
+  },
+  "homepage": "https://github.com/ChristophWalter/jekyll-tutorial/blob/master/README.md",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  }
+}

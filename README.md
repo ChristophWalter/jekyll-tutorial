@@ -25,3 +25,8 @@ generate nav-links from pages
 ## 10. Refactor default layout
 use includes for components
 ## 11. Example for adding posts and pages
+## 12. Adding some gulp magic
+concat and minify (s)css/js
+start and watch jekyll
+live reload browsersync
+build
